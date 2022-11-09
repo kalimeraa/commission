@@ -22,10 +22,7 @@ use PHPUnit\Framework\TestCase;
  */
 final class MathTest extends TestCase
 {
-    /**
-     * @var Math
-     */
-    private $math;
+    private Math $math;
 
     protected function setUp(): void
     {
