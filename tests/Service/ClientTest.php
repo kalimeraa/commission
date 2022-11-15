@@ -64,9 +64,9 @@ final class ClientTest extends TestCase
      */
     public function testShouldBeGotClientId(): void
     {
-        $this->client->setId(2);
+        $this->client->setId('2');
 
-        static::assertSame(2, $this->client->getId());
+        static::assertSame('2', $this->client->getId());
     }
 
     /**
